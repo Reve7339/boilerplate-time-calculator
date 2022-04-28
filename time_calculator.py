@@ -39,6 +39,3 @@ def add_time(start, duration, day=""):
     new_time = hours + ":" + minutes + meridiem + day + exchange_rate_information
 
     return new_time
-
-
-print(add_time("6:30 PM", "205:12"))
